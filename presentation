@@ -1,0 +1,10 @@
+1. Overview
+Destrukturyzacja to wygodny sposób wyodrębniania wielu wartości z danych
+przechowywanych w (także zagnieżdżonych) obiektach i tablicach.
+
+2. Patterns for destructuring
+
+
+
+2. Destruction use case
+

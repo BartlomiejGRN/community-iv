@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "object-deconstruction": "nodemon object-deconstruction.js",
-    "array-deconstruction": "nodemon object-deconstruction.js"
+    "object-deconstruction": "node TOTAL-DESTRUCTURIZATION/object-destructuring.js",
+    "fail-object-destruction": "node TOTAL-DESTRUCTURIZATION/fail-object-destructuring.js",
+    "array-deconstruction": "node TOTAL-DESTRUCTURIZATION/object-destructuring.js"
   },
   "keywords": [],
   "author": "",
