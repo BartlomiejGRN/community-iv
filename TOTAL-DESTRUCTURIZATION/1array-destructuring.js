@@ -7,7 +7,7 @@ const F1Drivers = [
 
 
 //Pominięcie
-const [ firstDriver, ,lastDriver ] = F1Drivers;
+const [ firstDriver,,lastDriver ] = F1Drivers;
 console.log('firstDriver: ', firstDriver);
 console.log('lastDriver: ', lastDriver);
 
@@ -16,6 +16,7 @@ console.log('lastDriver: ', lastDriver);
 const [ bestDriver, ...lameDrivers] = F1Drivers;
 console.log('bestDriver: ', bestDriver);
 console.log('lameDrivers: ', lameDrivers);
+
 
 //Wartości domyślne
 const [driverName = 'Robert', driverSurname] = [];

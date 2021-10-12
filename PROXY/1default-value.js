@@ -2,7 +2,7 @@
 
 const F1Drivers = ['Robert Kubica', 'Lewis Hamilton', 'Max Verstappen'];
 
-F1DriversProxy = new Proxy(F1Drivers, {
+const F1DriversProxy = new Proxy(F1Drivers, {
     get(target, prop) {
         if (prop in target) {
             return target[prop];

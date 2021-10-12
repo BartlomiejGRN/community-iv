@@ -22,7 +22,7 @@ const F1Car = {
     }
 }
 
-const { team, driver : { name, surname } } = F1Car;
-console.log(team, name, surname);
+const { team, maxSpeed } = F1Car;
+console.log(team, maxSpeed);
 
 

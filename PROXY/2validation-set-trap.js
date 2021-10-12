@@ -1,6 +1,5 @@
 //Validacja z użyciem “set trap"
 
-
 const F1Driver = {
     name : 'Robert',
     surname : 'Kubica',

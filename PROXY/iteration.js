@@ -57,3 +57,6 @@ F1DriverProxy = new Proxy(F1Driver, {
 })
 
 
+console.log({...F1DriverProxy})
+
+

@@ -4,14 +4,6 @@ const green = chalk.green;
 
 //Nieudana destrukturyzacja
 
-const driver = {
-    firstName : 'Robert',
-    lastName : 'Kubica'
-}
-
-const {firstName : name} = driver;
-console.log('driver.firstName', green(name));
-
 try {
     //1
     const {length} = 'BMW';
@@ -35,6 +27,8 @@ try {
 }catch (err){
     console.log('3', red(err.message));
 }
+
+//array
 
 try {
     //4
@@ -65,6 +59,7 @@ const objFromPrimitive = Object(true);
 console.log('objFromPrimitive', objFromPrimitive);
 
 //https://262.ecma-international.org/6.0/#sec-toobject
+
 
 const nullObj = null;
 try{

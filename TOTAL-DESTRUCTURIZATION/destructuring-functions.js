@@ -22,7 +22,7 @@ function showMenuBetter({title = "Untitled", width = 200, height = 100, items = 
 }
 
 
-showMenuBetter({title: 'Menu', items : ['activate', 'delete', 'clone']});
+showMenuBetter({items : ['activate', 'delete', 'clone'], title: 'Menu'});
 
 
 function showMenuTheBest({title = "Untitled", width = 200, height = 100, items = []} = {}) {
@@ -35,4 +35,5 @@ function showMenuTheBest({title = "Untitled", width = 200, height = 100, items =
 }
 
 showMenuTheBest();
+
 

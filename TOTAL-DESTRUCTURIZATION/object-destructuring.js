@@ -31,6 +31,14 @@ const F1Team = {
     ]
 };
 
+const exampleObject = {
+    name : 'Barti'
+}
+
+
+
+
+
 const {
     firstEntry, //Bezpośrednio po nazwie
 
@@ -43,6 +51,12 @@ const {
     drivers : [ ,{injuries : sebastianInjury = 'No injuries'}], //wartość domyślna
 
 } = F1Team;
+
+
+
+
+
+
 
 console.log('Pierwsze wystąpienie: ', firstEntry);
 console.log('Nazwa Teamu: ', teamName);

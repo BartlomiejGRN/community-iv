@@ -2,7 +2,7 @@ const randomPerson = {
     firstName: "Tomek",
     secondName: null,
     lastName : "Domek",
-    address : undefined,
+    address : undefined
 }
 
 const {
